@@ -20,7 +20,7 @@ jobs:
           password: ${{ secrets.DOCKER_PASSWORD }}
 
       - name: Build image
-        run: docker build -t hafsarachidsofie/gestionretard:latest .
+        run: docker build -t sofie01/gestionretard:latest .
 
       - name: Push image
-        run: docker push hafsarachidsofie/gestionretard:latest
+        run: docker push sofie01/gestionretard:latest
